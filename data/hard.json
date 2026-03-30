@@ -1,0 +1,148 @@
+{
+  "categories": [
+    {
+      "name": "Math",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"Solve: 2x + 5 = 17","options":["5","6","7","8"],"answer":"6"},
+        {"question":"Derivative of x² is?","options":["x","2x","x²","2"],"answer":"2x"},
+        {"question":"√(144 + 81) = ?","options":["13","14","15","16"],"answer":"15"},
+        {"question":"If f(x)=2x, find f(5)","options":["5","8","10","12"],"answer":"10"},
+        {"question":"10! (factorial) = ?","options":["3628800","720","120","5040"],"answer":"3628800"},
+        {"question":"log₁₀(1000) = ?","options":["2","3","4","10"],"answer":"3"},
+        {"question":"Solve: x² - 9 = 0","options":["±3","3","-3","0"],"answer":"±3"},
+        {"question":"Integral of 1 dx = ?","options":["x","1","0","dx"],"answer":"x"},
+        {"question":"sin(90°) = ?","options":["0","1","-1","0.5"],"answer":"1"},
+        {"question":"Matrix determinant [[1,2],[3,4]]","options":["-2","2","-1","1"],"answer":"-2"}
+      ]
+    },
+    {
+      "name": "English",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"Identify the literary device: 'Time flies'","options":["Simile","Metaphor","Irony","Alliteration"],"answer":"Metaphor"},
+        {"question":"Choose correct: 'Neither of them ___ ready'","options":["are","is","be","were"],"answer":"is"},
+        {"question":"Meaning of 'ubiquitous'?","options":["Rare","Everywhere","Unknown","Hidden"],"answer":"Everywhere"},
+        {"question":"Identify passive voice","options":["He wrote it","It was written","He writes","Writing"],"answer":"It was written"},
+        {"question":"Synonym of 'ephemeral'","options":["Permanent","Short-lived","Long","Strong"],"answer":"Short-lived"},
+        {"question":"Correct punctuation","options":["Lets eat","Let's eat","Lets' eat","Let is eat"],"answer":"Let's eat"},
+        {"question":"Antonym of 'obscure'","options":["Hidden","Clear","Dark","Unknown"],"answer":"Clear"},
+        {"question":"Identify clause type: 'because he was late'","options":["Independent","Dependent","Noun","Phrase"],"answer":"Dependent"},
+        {"question":"Correct form","options":["More better","Better","Most best","Bestest"],"answer":"Better"},
+        {"question":"Figure of speech: repetition of consonant sounds","options":["Assonance","Alliteration","Irony","Metaphor"],"answer":"Alliteration"}
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"SQL injection targets?","options":["Frontend","Database","UI","CSS"],"answer":"Database"},
+        {"question":"Zero-day exploit means?","options":["Known bug","Unknown vulnerability","Patch","Firewall"],"answer":"Unknown vulnerability"},
+        {"question":"Hashing is used for?","options":["Encrypt","Store passwords","Delete data","Transfer"],"answer":"Store passwords"},
+        {"question":"Man-in-the-middle attack?","options":["Direct hack","Intercept communication","Virus","Phishing"],"answer":"Intercept communication"},
+        {"question":"XSS stands for?","options":["Cross Site Scripting","Extra Secure System","Cross Server Sync","XML Script"],"answer":"Cross Site Scripting"},
+        {"question":"Brute force attack?","options":["Guessing passwords","Virus","Firewall","Encryption"],"answer":"Guessing passwords"},
+        {"question":"Public key cryptography uses?","options":["1 key","2 keys","3 keys","No key"],"answer":"2 keys"},
+        {"question":"Token-based auth uses?","options":["Session","JWT","Cookies","HTML"],"answer":"JWT"},
+        {"question":"Port 443 is for?","options":["HTTP","HTTPS","FTP","SSH"],"answer":"HTTPS"},
+        {"question":"DDoS attack does?","options":["Steal data","Overload server","Encrypt data","Delete files"],"answer":"Overload server"}
+      ]
+    },
+    {
+      "name": "Frontend",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"React re-renders when?","options":["State changes","CSS changes","HTML changes","DB changes"],"answer":"State changes"},
+        {"question":"Virtual DOM improves?","options":["Speed","Design","Storage","Security"],"answer":"Speed"},
+        {"question":"Key prop used for?","options":["Styling","Identify elements","Events","DB"],"answer":"Identify elements"},
+        {"question":"useEffect runs when?","options":["Render","State change","Both","Never"],"answer":"Both"},
+        {"question":"Closure in JS means?","options":["Function with scope","Loop","Object","Class"],"answer":"Function with scope"},
+        {"question":"Async/await handles?","options":["Styling","Async code","HTML","CSS"],"answer":"Async code"},
+        {"question":"Event bubbling is?","options":["Upward flow","Downward","Stop","None"],"answer":"Upward flow"},
+        {"question":"CSS specificity highest?","options":["Class","ID","Tag","Inline"],"answer":"Inline"},
+        {"question":"Memoization prevents?","options":["Re-render","Memory","API","State"],"answer":"Re-render"},
+        {"question":"Debounce is used for?","options":["Delay execution","Speed","Loop","Render"],"answer":"Delay execution"}
+      ]
+    },
+    {
+      "name": "Backend",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"REST is?","options":["Protocol","Architecture","Language","DB"],"answer":"Architecture"},
+        {"question":"Middleware runs?","options":["Before response","After DB","UI","Client"],"answer":"Before response"},
+        {"question":"Status 500 means?","options":["OK","Server error","Not found","Forbidden"],"answer":"Server error"},
+        {"question":"JWT contains?","options":["Encrypted data","Encoded payload","Plain text","Hash only"],"answer":"Encoded payload"},
+        {"question":"Index in DB improves?","options":["Speed","Design","Security","Size"],"answer":"Speed"},
+        {"question":"ACID stands for?","options":["Atomicity Consistency Isolation Durability","Access Code Index Data","Async Code Internal Data","None"],"answer":"Atomicity Consistency Isolation Durability"},
+        {"question":"ORM does?","options":["Map DB to objects","Style","Server","UI"],"answer":"Map DB to objects"},
+        {"question":"Caching reduces?","options":["Latency","Security","Code","Design"],"answer":"Latency"},
+        {"question":"Load balancer does?","options":["Distribute traffic","Store data","Style UI","Auth"],"answer":"Distribute traffic"},
+        {"question":"WebSocket is?","options":["Realtime protocol","DB","CSS","API"],"answer":"Realtime protocol"}
+      ]
+    },
+    {
+      "name": "DevOps",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"Kubernetes manages?","options":["Containers","DB","UI","Code"],"answer":"Containers"},
+        {"question":"CI pipeline triggers?","options":["Code push","Design","UI","Manual"],"answer":"Code push"},
+        {"question":"Docker image is?","options":["Template","Container","DB","Server"],"answer":"Template"},
+        {"question":"Infrastructure as Code?","options":["Manual setup","Scripted infra","Design","UI"],"answer":"Scripted infra"},
+        {"question":"Blue-green deploy?","options":["Switch env","Delete code","Design","UI"],"answer":"Switch env"},
+        {"question":"Rollback means?","options":["Revert version","Delete","Deploy","Push"],"answer":"Revert version"},
+        {"question":"Helm is?","options":["Package manager","DB","Server","UI"],"answer":"Package manager"},
+        {"question":"Logs used for?","options":["Debug","Design","UI","Style"],"answer":"Debug"},
+        {"question":"Scaling horizontally?","options":["More servers","More CPU","More RAM","None"],"answer":"More servers"},
+        {"question":"Terraform is?","options":["IaC tool","DB","UI","Language"],"answer":"IaC tool"}
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"Heuristic evaluation is?","options":["Usability test","Coding","Design","DB"],"answer":"Usability test"},
+        {"question":"Fitts Law relates to?","options":["Speed of target","Color","Font","Code"],"answer":"Speed of target"},
+        {"question":"Cognitive load means?","options":["Mental effort","Speed","Color","Design"],"answer":"Mental effort"},
+        {"question":"A/B testing compares?","options":["Versions","Code","DB","UI"],"answer":"Versions"},
+        {"question":"Affordance means?","options":["Possible action","Color","Code","DB"],"answer":"Possible action"},
+        {"question":"Hierarchy improves?","options":["Readability","Code","DB","Server"],"answer":"Readability"},
+        {"question":"Dark pattern is?","options":["Trick users","Good design","UI","Code"],"answer":"Trick users"},
+        {"question":"Whitespace improves?","options":["Clarity","Speed","Code","DB"],"answer":"Clarity"},
+        {"question":"Persona represents?","options":["User type","Code","DB","Server"],"answer":"User type"},
+        {"question":"User journey is?","options":["Experience path","Code","DB","UI"],"answer":"Experience path"}
+      ]
+    },
+    {
+      "name": "Marketing",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"CAC means?","options":["Customer Acquisition Cost","Code Access Cost","Client App Code","None"],"answer":"Customer Acquisition Cost"},
+        {"question":"LTV means?","options":["Lifetime Value","Lead Value","Long Term Visit","None"],"answer":"Lifetime Value"},
+        {"question":"Funnel stage?","options":["Awareness","Code","DB","UI"],"answer":"Awareness"},
+        {"question":"Retargeting does?","options":["Re-engage users","Delete users","Design","Code"],"answer":"Re-engage users"},
+        {"question":"KPI means?","options":["Key Performance Indicator","Code","DB","Server"],"answer":"Key Performance Indicator"},
+        {"question":"Organic traffic?","options":["Free users","Paid users","Bots","None"],"answer":"Free users"},
+        {"question":"CTR formula?","options":["Clicks/Impressions","Views/Users","Users/Clicks","None"],"answer":"Clicks/Impressions"},
+        {"question":"Bounce rate high means?","options":["Bad UX","Good UX","Fast","Slow"],"answer":"Bad UX"},
+        {"question":"Conversion rate?","options":["Users to buyers","Clicks to code","DB","UI"],"answer":"Users to buyers"},
+        {"question":"Brand equity?","options":["Brand value","Code","DB","UI"],"answer":"Brand value"}
+      ]
+    },
+    {
+      "name": "Project Manager",
+      "difficulty": "hard",
+      "questions": [
+        {"question":"Critical path is?","options":["Longest path","Shortest","Fast","None"],"answer":"Longest path"},
+        {"question":"Burn down chart shows?","options":["Work left","Code","Design","DB"],"answer":"Work left"},
+        {"question":"Scope creep is?","options":["Uncontrolled changes","Planning","Code","DB"],"answer":"Uncontrolled changes"},
+        {"question":"Velocity measures?","options":["Work done","Speed","Time","Code"],"answer":"Work done"},
+        {"question":"Stakeholder mapping?","options":["Influence vs interest","Code","DB","UI"],"answer":"Influence vs interest"},
+        {"question":"Risk mitigation?","options":["Reduce risk","Ignore","Delete","Code"],"answer":"Reduce risk"},
+        {"question":"Sprint review is?","options":["Demo work","Code","DB","UI"],"answer":"Demo work"},
+        {"question":"Kanban focuses on?","options":["Flow","Code","DB","UI"],"answer":"Flow"},
+        {"question":"RACI defines?","options":["Roles","Code","DB","UI"],"answer":"Roles"},
+        {"question":"Milestone is?","options":["Key event","Code","DB","UI"],"answer":"Key event"}
+      ]
+    }
+  ]
+}

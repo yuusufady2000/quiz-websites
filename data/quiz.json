@@ -1,0 +1,159 @@
+{
+  "categories": [
+    {
+
+      "name": "Math",
+      "difficulty": "easy",
+      
+      "image":"/images/math.webp",
+      "questions": [
+        {"question":"2 + 2 = ?","options":["3","4","5","6"],"answer":"4"},
+        {"question":"5 × 2 = ?","options":["10","8","6","12"],"answer":"10"},
+        {"question":"10 ÷ 2 = ?","options":["2","3","5","6"],"answer":"5"},
+        {"question":"7 + 3 = ?","options":["9","10","11","12"],"answer":"10"},
+        {"question":"9 - 4 = ?","options":["3","4","5","6"],"answer":"5"},
+        {"question":"3 × 3 = ?","options":["6","7","8","9"],"answer":"9"},
+        {"question":"12 ÷ 3 = ?","options":["2","3","4","5"],"answer":"4"},
+        {"question":"6 + 6 = ?","options":["10","11","12","13"],"answer":"12"},
+        {"question":"8 - 3 = ?","options":["4","5","6","7"],"answer":"5"},
+        {"question":"4 × 2 = ?","options":["6","7","8","9"],"answer":"8"}
+      ]
+    },
+    {
+      "name": "English",
+      "difficulty": "easy",
+      "image":"/images/english.webp",
+      "questions": [
+        {"question":"Which is a noun?","options":["Run","Dog","Quickly","Blue"],"answer":"Dog"},
+        {"question":"Which is a verb?","options":["Eat","Table","Chair","Book"],"answer":"Eat"},
+        {"question":"Plural of 'cat'?","options":["Cats","Catss","Cates","Caties"],"answer":"Cats"},
+        {"question":"Which is an adjective?","options":["Run","Big","Eat","Jump"],"answer":"Big"},
+        {"question":"Which is a pronoun?","options":["He","Book","Chair","Table"],"answer":"He"},
+        {"question":"Correct sentence?","options":["She go","She goes","She going","She gone"],"answer":"She goes"},
+        {"question":"Opposite of hot?","options":["Cold","Warm","Heat","Fire"],"answer":"Cold"},
+        {"question":"Which is a sentence?","options":["Run fast","The dog runs","Blue sky","Eat food"],"answer":"The dog runs"},
+        {"question":"Correct spelling?","options":["Recieve","Receive","Receve","Receeve"],"answer":"Receive"},
+        {"question":"Which is a question?","options":["You are fine.","Are you fine?","You fine","Fine you are"],"answer":"Are you fine?"}
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "difficulty": "easy",
+      "image":"/images/cyber.webp",
+      "questions": [
+        {"question":"What is a password?","options":["Key","Secret code","Username","File"],"answer":"Secret code"},
+        {"question":"What is phishing?","options":["Fishing","Fake emails","Coding","Gaming"],"answer":"Fake emails"},
+        {"question":"Antivirus is?","options":["Music app","Security software","Game","Browser"],"answer":"Security software"},
+        {"question":"Passwords should be?","options":["Shared","Secret","Posted","Told"],"answer":"Secret"},
+        {"question":"Hacker is?","options":["Doctor","Programmer","Intruder","Teacher"],"answer":"Intruder"},
+        {"question":"2FA means?","options":["Two Factor Auth","Two Files","Two Apps","Two Codes"],"answer":"Two Factor Auth"},
+        {"question":"Strong password?","options":["1234","password","Mixed chars","abc"],"answer":"Mixed chars"},
+        {"question":"Public WiFi is?","options":["Safe","Secure","Risky","Fast"],"answer":"Risky"},
+        {"question":"Malware is?","options":["Good software","Bad software","Music","Video"],"answer":"Bad software"},
+        {"question":"HTTPS means?","options":["Secure","Slow","Big","Old"],"answer":"Secure"}
+      ]
+    },
+    {
+      "name": "Frontend",
+      "difficulty": "easy",
+      "image":"/images/frontend.webp",
+      "questions": [
+        {"question":"HTML is for?","options":["Style","Structure","Logic","DB"],"answer":"Structure"},
+        {"question":"CSS is for?","options":["Logic","Styling","DB","Server"],"answer":"Styling"},
+        {"question":"JS is for?","options":["Style","Logic","DB","Hosting"],"answer":"Logic"},
+        {"question":"React is?","options":["Library","Language","DB","Server"],"answer":"Library"},
+        {"question":"Component is?","options":["UI part","DB","Server","File"],"answer":"UI part"},
+        {"question":"CSS stands for?","options":["Color Style","Cascading Style Sheets","Code Style","Creative"],"answer":"Cascading Style Sheets"},
+        {"question":"HTML stands for?","options":["HyperText Markup Language","HighText","Home Tool","Hyper Tool"],"answer":"HyperText Markup Language"},
+        {"question":"JS stands for?","options":["JavaScript","JavaStyle","JsonScript","JustScript"],"answer":"JavaScript"},
+        {"question":"DOM means?","options":["Document Object Model","Data Object","Design","Doc"],"answer":"Document Object Model"},
+        {"question":"Tailwind is?","options":["JS lib","CSS framework","DB","Server"],"answer":"CSS framework"}
+      ]
+    },
+    {
+      "name": "Backend",
+      "difficulty": "easy",
+      "image":"/images/backend.webp",
+      "questions": [
+        {"question":"Backend runs on?","options":["Browser","Server","UI","CSS"],"answer":"Server"},
+        {"question":"Node.js is?","options":["Frontend","Runtime","Database","Style"],"answer":"Runtime"},
+        {"question":"API means?","options":["App Program Interface","Application Programming Interface","Advanced Program","App Page"],"answer":"Application Programming Interface"},
+        {"question":"Database stores?","options":["Design","Data","CSS","HTML"],"answer":"Data"},
+        {"question":"Express is?","options":["Framework","Language","DB","Tool"],"answer":"Framework"},
+        {"question":"JSON is?","options":["Data format","Language","Server","UI"],"answer":"Data format"},
+        {"question":"Server does?","options":["Store & process","Style","Design","Layout"],"answer":"Store & process"},
+        {"question":"CRUD means?","options":["Create Read Update Delete","Code Run Use Deploy","Copy Run Use Data","Create Run Update"],"answer":"Create Read Update Delete"},
+        {"question":"Auth means?","options":["Authorization","Authentication","Both","None"],"answer":"Both"},
+        {"question":"HTTP is?","options":["Protocol","Language","DB","Style"],"answer":"Protocol"}
+      ]
+    },
+    {
+      "name": "DevOps",
+      "difficulty": "easy",
+      "image":"/images/devops.webp",
+      "questions": [
+        {"question":"DevOps combines?","options":["Dev & Ops","UI & UX","HTML & CSS","JS & DB"],"answer":"Dev & Ops"},
+        {"question":"CI/CD means?","options":["Continuous Integration/Delivery","Code Install","Control Input","Config Data"],"answer":"Continuous Integration/Delivery"},
+        {"question":"Docker is?","options":["Container tool","Browser","DB","Language"],"answer":"Container tool"},
+        {"question":"Git is?","options":["Version control","Database","Server","UI"],"answer":"Version control"},
+        {"question":"Deploy means?","options":["Run app live","Delete code","Write code","Design"],"answer":"Run app live"},
+        {"question":"Cloud is?","options":["Online servers","Rain","Local PC","App"],"answer":"Online servers"},
+        {"question":"Pipeline is?","options":["Automation flow","Pipe","Code","UI"],"answer":"Automation flow"},
+        {"question":"Linux is?","options":["OS","Browser","DB","Language"],"answer":"OS"},
+        {"question":"Monitoring is?","options":["Tracking app","Design","Coding","Styling"],"answer":"Tracking app"},
+        {"question":"Scaling is?","options":["Handling growth","Shrinking","Design","Coding"],"answer":"Handling growth"}
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "difficulty": "easy",
+      "image":"/images/ux.webp",
+      "questions": [
+        {"question":"UI means?","options":["User Interface","User Input","User Info","User Index"],"answer":"User Interface"},
+        {"question":"UX means?","options":["User Experience","User Example","User Extra","User Exit"],"answer":"User Experience"},
+        {"question":"Wireframe is?","options":["Layout sketch","Code","DB","Server"],"answer":"Layout sketch"},
+        {"question":"Prototype is?","options":["Early model","Final product","Code","DB"],"answer":"Early model"},
+        {"question":"Usability means?","options":["Ease of use","Speed","Color","Font"],"answer":"Ease of use"},
+        {"question":"Color theory is?","options":["Use of colors","Coding","DB","Server"],"answer":"Use of colors"},
+        {"question":"Typography is?","options":["Fonts","Code","Layout","DB"],"answer":"Fonts"},
+        {"question":"Responsive design?","options":["Works on all devices","Only mobile","Only PC","None"],"answer":"Works on all devices"},
+        {"question":"Accessibility is?","options":["For all users","Design only","Code only","DB"],"answer":"For all users"},
+        {"question":"User flow is?","options":["Path users take","Code","DB","Server"],"answer":"Path users take"}
+      ]
+    },
+    {
+      "name": "Marketing",
+      "image":"/images/marketing.webp",
+      "difficulty": "easy",
+      "questions": [
+        {"question":"Marketing is?","options":["Selling","Coding","Design","DB"],"answer":"Selling"},
+        {"question":"SEO means?","options":["Search Engine Optimization","Site Engine","Search Edit","System Engine"],"answer":"Search Engine Optimization"},
+        {"question":"Brand is?","options":["Identity","Code","Server","DB"],"answer":"Identity"},
+        {"question":"Audience is?","options":["Target users","Developers","Designers","Bots"],"answer":"Target users"},
+        {"question":"Content marketing is?","options":["Using content","Coding","DB","Server"],"answer":"Using content"},
+        {"question":"Social media is?","options":["Online platforms","Code","DB","Server"],"answer":"Online platforms"},
+        {"question":"Email marketing is?","options":["Using email","Coding","DB","Server"],"answer":"Using email"},
+        {"question":"Conversion is?","options":["User action","Code","Design","DB"],"answer":"User action"},
+        {"question":"Ad is?","options":["Promotion","Code","DB","Server"],"answer":"Promotion"},
+        {"question":"Campaign is?","options":["Marketing plan","Code","DB","Server"],"answer":"Marketing plan"}
+      ]
+    },
+    {
+      "name": "Project Manager",
+      "difficulty": "easy",
+      "image":"/images/projectManager.webp",
+      "questions": [
+        {"question":"PM does?","options":["Manage project","Code","Design","DB"],"answer":"Manage project"},
+        {"question":"Deadline is?","options":["Due date","Start date","Code","Design"],"answer":"Due date"},
+        {"question":"Agile is?","options":["Methodology","Code","DB","UI"],"answer":"Methodology"},
+        {"question":"Scrum is?","options":["Framework","Language","DB","Server"],"answer":"Framework"},
+        {"question":"Task is?","options":["Work item","Code","Design","DB"],"answer":"Work item"},
+        {"question":"Team is?","options":["Group","Code","DB","Server"],"answer":"Group"},
+        {"question":"Planning is?","options":["Organizing","Coding","Design","DB"],"answer":"Organizing"},
+        {"question":"Risk is?","options":["Possible problem","Code","Design","DB"],"answer":"Possible problem"},
+        {"question":"Stakeholder is?","options":["Interested person","Coder","Designer","DBA"],"answer":"Interested person"},
+        {"question":"Timeline is?","options":["Schedule","Code","DB","Server"],"answer":"Schedule"}
+      ]
+    }
+  ]
+}

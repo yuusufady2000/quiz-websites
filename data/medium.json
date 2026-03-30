@@ -1,0 +1,148 @@
+{
+  "categories": [
+    {
+      "name": "Math",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"15 + 27 = ?","options":["40","42","43","45"],"answer":"42"},
+        {"question":"12 × 4 = ?","options":["36","48","52","44"],"answer":"48"},
+        {"question":"144 ÷ 12 = ?","options":["10","11","12","13"],"answer":"12"},
+        {"question":"25% of 200 = ?","options":["25","40","50","60"],"answer":"50"},
+        {"question":"9² = ?","options":["18","72","81","90"],"answer":"81"},
+        {"question":"√64 = ?","options":["6","7","8","9"],"answer":"8"},
+        {"question":"18 × 3 - 10 = ?","options":["44","54","50","42"],"answer":"44"},
+        {"question":"7 × 8 = ?","options":["54","56","58","60"],"answer":"56"},
+        {"question":"100 ÷ 5 = ?","options":["10","15","20","25"],"answer":"20"},
+        {"question":"(5 + 3) × 2 = ?","options":["10","12","14","16"],"answer":"16"}
+      ]
+    },
+    {
+      "name": "English",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"Identify the adverb","options":["Quick","Quickly","Run","Dog"],"answer":"Quickly"},
+        {"question":"Choose correct tense","options":["She go","She goes","She going","She gone"],"answer":"She goes"},
+        {"question":"Synonym of 'happy'?","options":["Sad","Joyful","Angry","Tired"],"answer":"Joyful"},
+        {"question":"Antonym of 'increase'?","options":["Grow","Expand","Reduce","Add"],"answer":"Reduce"},
+        {"question":"Which is a conjunction?","options":["And","Run","Blue","Fast"],"answer":"And"},
+        {"question":"Correct spelling","options":["Accomodate","Acommodate","Accommodate","Acomodate"],"answer":"Accommodate"},
+        {"question":"Identify noun","options":["Run","Happiness","Quickly","Blue"],"answer":"Happiness"},
+        {"question":"Which is sentence?","options":["Running fast","He runs fast","Fast run","Run fast"],"answer":"He runs fast"},
+        {"question":"Plural of 'child'?","options":["Childs","Children","Childes","Childrens"],"answer":"Children"},
+        {"question":"Which is a question?","options":["You are fine","Are you fine?","You fine","Fine you"],"answer":"Are you fine?"}
+      ]
+    },
+    {
+      "name": "Cybersecurity",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"Phishing is?","options":["Virus","Fake emails","Firewall","Encryption"],"answer":"Fake emails"},
+        {"question":"HTTPS provides?","options":["Speed","Security","Style","Size"],"answer":"Security"},
+        {"question":"Strong password?","options":["1234","Name","Mixed chars","Date"],"answer":"Mixed chars"},
+        {"question":"Firewall does?","options":["Blocks threats","Stores data","Runs apps","Designs UI"],"answer":"Blocks threats"},
+        {"question":"Malware is?","options":["Good software","Bad software","Game","Tool"],"answer":"Bad software"},
+        {"question":"2FA means?","options":["Two File","Two Factor Auth","Two Fast","Two Form"],"answer":"Two Factor Auth"},
+        {"question":"VPN is for?","options":["Speed","Security","Gaming","Design"],"answer":"Security"},
+        {"question":"Public WiFi?","options":["Safe","Secure","Risky","Private"],"answer":"Risky"},
+        {"question":"Encryption means?","options":["Lock data","Delete data","Copy data","Send data"],"answer":"Lock data"},
+        {"question":"Hacker is?","options":["Teacher","Intruder","Doctor","Artist"],"answer":"Intruder"}
+      ]
+    },
+    {
+      "name": "Frontend",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"HTML link tag?","options":["<link>","<a>","<url>","<href>"],"answer":"<a>"},
+        {"question":"CSS color property?","options":["bg","color","font","text"],"answer":"color"},
+        {"question":"JS used for?","options":["Styling","Structure","Logic","DB"],"answer":"Logic"},
+        {"question":"React uses?","options":["Components","Tables","Servers","Files"],"answer":"Components"},
+        {"question":"DOM stands for?","options":["Doc Model","Document Object Model","Data Object","Design Object"],"answer":"Document Object Model"},
+        {"question":"Flexbox is?","options":["Layout","DB","Language","Tool"],"answer":"Layout"},
+        {"question":"Tailwind is?","options":["JS","CSS framework","DB","Server"],"answer":"CSS framework"},
+        {"question":"useState is?","options":["Hook","Component","API","Style"],"answer":"Hook"},
+        {"question":"Event handler?","options":["onClick","click","event","handle"],"answer":"onClick"},
+        {"question":"JSX is?","options":["HTML in JS","CSS in JS","DB","API"],"answer":"HTML in JS"}
+      ]
+    },
+    {
+      "name": "Backend",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"Node.js is?","options":["Frontend","Runtime","DB","Style"],"answer":"Runtime"},
+        {"question":"API means?","options":["App Program","Application Programming Interface","Advanced Program","App Page"],"answer":"Application Programming Interface"},
+        {"question":"Database stores?","options":["Design","Data","CSS","HTML"],"answer":"Data"},
+        {"question":"Express is?","options":["Framework","Language","DB","Tool"],"answer":"Framework"},
+        {"question":"JSON is?","options":["Format","Language","Server","UI"],"answer":"Format"},
+        {"question":"CRUD means?","options":["Create Read Update Delete","Code Run Use","Copy Run","Create Run"],"answer":"Create Read Update Delete"},
+        {"question":"Auth means?","options":["Authorization","Authentication","Both","None"],"answer":"Both"},
+        {"question":"HTTP is?","options":["Protocol","Language","DB","Style"],"answer":"Protocol"},
+        {"question":"Server does?","options":["Process data","Style","Design","Layout"],"answer":"Process data"},
+        {"question":"Middleware is?","options":["Between handler","DB","UI","Server"],"answer":"Between handler"}
+      ]
+    },
+    {
+      "name": "DevOps",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"CI/CD is?","options":["Automation","Code Install","Control","Config"],"answer":"Automation"},
+        {"question":"Docker is?","options":["Container","Browser","DB","Language"],"answer":"Container"},
+        {"question":"Git is?","options":["Version control","Database","Server","UI"],"answer":"Version control"},
+        {"question":"Deploy means?","options":["Run live","Delete","Write","Design"],"answer":"Run live"},
+        {"question":"Cloud is?","options":["Online servers","Rain","Local","App"],"answer":"Online servers"},
+        {"question":"Pipeline?","options":["Automation flow","Pipe","Code","UI"],"answer":"Automation flow"},
+        {"question":"Linux is?","options":["OS","Browser","DB","Lang"],"answer":"OS"},
+        {"question":"Scaling?","options":["Handle growth","Shrink","Design","Code"],"answer":"Handle growth"},
+        {"question":"Monitoring?","options":["Track app","Design","Code","Style"],"answer":"Track app"},
+        {"question":"Kubernetes is?","options":["Container orchestration","DB","Lang","UI"],"answer":"Container orchestration"}
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"UI means?","options":["User Interface","User Input","User Info","User Index"],"answer":"User Interface"},
+        {"question":"UX means?","options":["User Experience","User Example","User Extra","User Exit"],"answer":"User Experience"},
+        {"question":"Wireframe?","options":["Layout sketch","Code","DB","Server"],"answer":"Layout sketch"},
+        {"question":"Prototype?","options":["Early model","Final","Code","DB"],"answer":"Early model"},
+        {"question":"Usability?","options":["Ease of use","Speed","Color","Font"],"answer":"Ease of use"},
+        {"question":"Typography?","options":["Fonts","Code","Layout","DB"],"answer":"Fonts"},
+        {"question":"Responsive?","options":["All devices","Mobile","PC","None"],"answer":"All devices"},
+        {"question":"Accessibility?","options":["All users","Design","Code","DB"],"answer":"All users"},
+        {"question":"User flow?","options":["User path","Code","DB","Server"],"answer":"User path"},
+        {"question":"Color theory?","options":["Use of colors","Code","DB","Server"],"answer":"Use of colors"}
+      ]
+    },
+    {
+      "name": "Marketing",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"SEO means?","options":["Search Engine Optimization","Site Engine","Search Edit","System"],"answer":"Search Engine Optimization"},
+        {"question":"Brand is?","options":["Identity","Code","Server","DB"],"answer":"Identity"},
+        {"question":"Audience?","options":["Target users","Dev","Design","Bots"],"answer":"Target users"},
+        {"question":"Content marketing?","options":["Using content","Code","DB","Server"],"answer":"Using content"},
+        {"question":"Conversion?","options":["User action","Code","Design","DB"],"answer":"User action"},
+        {"question":"Ad is?","options":["Promotion","Code","DB","Server"],"answer":"Promotion"},
+        {"question":"Campaign?","options":["Marketing plan","Code","DB","Server"],"answer":"Marketing plan"},
+        {"question":"CTR means?","options":["Click Through Rate","Code Rate","Control Rate","Click Time"],"answer":"Click Through Rate"},
+        {"question":"Lead is?","options":["Potential customer","Code","DB","Server"],"answer":"Potential customer"},
+        {"question":"Bounce rate?","options":["Leave quickly","Stay","Buy","Click"],"answer":"Leave quickly"}
+      ]
+    },
+    {
+      "name": "Project Manager",
+      "difficulty": "medium",
+      "questions": [
+        {"question":"PM does?","options":["Manage project","Code","Design","DB"],"answer":"Manage project"},
+        {"question":"Deadline?","options":["Due date","Start","Code","Design"],"answer":"Due date"},
+        {"question":"Agile?","options":["Methodology","Code","DB","UI"],"answer":"Methodology"},
+        {"question":"Scrum?","options":["Framework","Language","DB","Server"],"answer":"Framework"},
+        {"question":"Task?","options":["Work item","Code","Design","DB"],"answer":"Work item"},
+        {"question":"Risk?","options":["Possible problem","Code","Design","DB"],"answer":"Possible problem"},
+        {"question":"Stakeholder?","options":["Interested person","Coder","Designer","DBA"],"answer":"Interested person"},
+        {"question":"Timeline?","options":["Schedule","Code","DB","Server"],"answer":"Schedule"},
+        {"question":"Sprint?","options":["Short cycle","Run","Code","Design"],"answer":"Short cycle"},
+        {"question":"Scope?","options":["Project boundary","Code","DB","UI"],"answer":"Project boundary"}
+      ]
+    }
+  ]
+}
