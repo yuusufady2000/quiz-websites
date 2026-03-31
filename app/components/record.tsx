@@ -210,7 +210,7 @@ const Record = () => {
                         </p>
                        
                         <h2 
-                          className={`text-sm font-medium ${rec.level === "quiz" ? "text-green-400" : rec.level === "medium" ? "text-yellow-400" : "text-red-400"}`}
+                          className={`text-sm font-medium ${rec.level === "easy" ? "text-green-400" : rec.level === "medium" ? "text-yellow-400" : "text-red-400"}`}
                         >
                           {rec.level}
                         </h2>

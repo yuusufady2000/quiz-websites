@@ -15,6 +15,7 @@ const RegisterPage = () => {
     const res = await fetch(`${import.meta.env.VITE_API_EASY}/categories`);
     const data = await res.json();
     setQuiz(data);
+    console.log(data);
     
     setLoading(false);
   };
