@@ -7,7 +7,7 @@
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
     "typecheck": "react-router typegen && tsc",
-    "starts-api": "json-server --watch data/quiz.json --port 8000"
+    "start-api": "json-server --watch data/quiz.json --port 8000"
 
   },
   "dependencies": {
