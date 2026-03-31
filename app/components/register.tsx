@@ -24,7 +24,7 @@ const RegisterPage = () => {
   }, []);
 
   const handleModal = (q: Quiz) => {
-  selectedQuiz(q);
+    selectedQuiz(q);
     setModal(true);
   }
 
