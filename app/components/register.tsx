@@ -6,14 +6,17 @@ import { FaArrowLeft } from "react-icons/fa6";
 const RegisterPage = () => {
   
   const [quiz, setQuiz] = useState<Quiz[]>([]);
+  const [loading, setLoading] = useState(true);
    const [modal, setModal] = useState(false);
    const [selectQuiz, selectedQuiz] = useState<Quiz | null>(null);
 
   const fetchQuiz = async () => {
-    const res = await fetch("/data/quiz.json");
+    setLoading(true);
+    const res = await fetch(`${import.meta.env.VITE_API_EASY}/categories`);
     const data = await res.json();
-    setQuiz(data.categories);
-    console.log(data);
+    setQuiz(data);
+    
+    setLoading(false);
   };
 
   useEffect(() => {
@@ -25,6 +28,15 @@ const RegisterPage = () => {
     setModal(true);
   }
 
+  if (loading) {
+    return (
+      <div className=" bg-gray-950 flex items-center text-xl justify-center h-screen text-gray-400">
+        Loading quizzes...
+      </div>
+    );
+  }
+
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950 text-white px-19 py-13">
   
@@ -33,7 +45,7 @@ const RegisterPage = () => {
       </h1>
 
       <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        {quiz.map((q) => (
+        {quiz?.map((q) => (
           <div
             key={q.name}
             className="group bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl overflow-hidden shadow-xl "
@@ -73,7 +85,7 @@ const RegisterPage = () => {
 
             <div className="space-y-3">
               <Link
-                to={`/quizDisplay/${selectQuiz.name}?level=quiz`}
+                to={`/quizDisplay/${selectQuiz.name}?level=easy`}
                 className="block w-full py-2 rounded-lg bg-green-600 hover:bg-green-500"
               >
                 Easy

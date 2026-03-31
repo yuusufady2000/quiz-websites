@@ -18,7 +18,7 @@ const level = searchParams.get("level") || "quiz";
 
  const fetchQuizDetail = async () => {
   try {
-    const res = await fetch(`/data/${level}.json`);
+    const res = await fetch(`${import.meta.env[`VITE_API_${level.toUpperCase()}`]}?name=${name}`);
     const data = await res.json();
 
     const selectedQuiz = data.categories.find(

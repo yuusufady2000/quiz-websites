@@ -9,8 +9,8 @@ import Footer from "~/components/footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Quiz App" },
+    { name: "description", content: "Test your knowledge with our interactive quizzes!" },
   ];
 }
 
